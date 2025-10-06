@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+div{
+  border: 2px solid black;
+  margin: 40% 1% 1% 10%;
+  width: 80%;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 1em;
+  box-shadow:0px 0px 20px 1px black;
+
+}
+
+p{
+  padding-left:12px ;
+  font-size: 18px;
+  font-family: "Charm", sans-serif;
+}
+
+img{
+  padding-top: 20px;
+}
+
+footer{
+  margin-top: 45%;
+  text-align: center;
+}
