@@ -6,7 +6,7 @@ body{
 
 div{
   border: 2px solid black;
-  margin: 40% 1% 1% 10%;
+  margin: 40% 1% 1% 1%;
   width: 80%;
   display: inline-flex;
   padding: 10px;
@@ -21,21 +21,26 @@ p{
   font-family: "Charm", sans-serif;
 }
 #playPause{
+  position: absolute;
+  top: 70%;
   left: 50%;
-  margin: auto;
+  margin-top: 10px;
   width: 60px;
-  transform: -50% -50%;
-  
+  transform: translateX( -50%);
+  cursor: pointer;
   
 }
 
 #playPause > svg{
   margin: auto;
+  position: absolute;
+  width: 60px;
+  height: 60px;
 }
 
 img{
+  padding-top: 25px;
   
-  top: 50%;
 }
 
 footer{
