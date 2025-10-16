@@ -6,7 +6,7 @@ body{
 
 div{
   border: 2px solid black;
-  margin: 40% 1% 1% 1%;
+  margin: 40% 8% 1% 8%;
   width: 80%;
   display: inline-flex;
   padding: 10px;
@@ -25,10 +25,16 @@ p{
   top: 70%;
   left: 50%;
   margin-top: 10px;
-  width: 60px;
+  width: 55px;
+  height: 55px;
   transform: translateX( -50%);
   cursor: pointer;
+  padding: 6px;
   
+}
+
+#imagemPausar{
+  display: none;
 }
 
 #playPause > svg{
