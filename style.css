@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+  position: relative;
+}
+
 div{
   border: 2px solid black;
   margin: 40% 1% 1% 10%;
@@ -8,7 +12,7 @@ div{
   padding: 10px;
   border-radius: 1em;
   box-shadow:0px 0px 20px 1px black;
-
+  position: relative;
 }
 
 p{
@@ -16,12 +20,27 @@ p{
   font-size: 18px;
   font-family: "Charm", sans-serif;
 }
+#playPause{
+  left: 50%;
+  margin: auto;
+  width: 60px;
+  transform: -50% -50%;
+  
+  
+}
+
+#playPause > svg{
+  margin: auto;
+}
 
 img{
-  padding-top: 10%;
+  
+  top: 50%;
 }
 
 footer{
   margin-top: 45%;
   text-align: center;
+ 
+  top: 40%;
 }
